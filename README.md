@@ -29,9 +29,6 @@ yolotrt.exe --inputUrl=06_720p.mp4;02.mp4 --pushUrl=rtmp://127.0.0.1:1935/live1;
 --pushUrl 为多个推理服务器地址流，用;进行分隔
 注意输入流个数与推理流个数需保证相同
 ```
-##### 运行效果：
-![Dx11推理绘图](images/run_d3d.png)
-![VLC播放推流](images/run_push.png)
 
 #### 仅解码+推理可实现(Tesla P4) 8路720P视频，平均90ms延时；(RTX4090)8路720P视频，平均9ms延时
 #### 解码+推理+绘图显示+推流可实现(Tesla P4) 8路720p视频，平均108ms延时；(RTX4090)8路720P视频，平均17ms延时
